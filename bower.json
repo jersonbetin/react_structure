@@ -1,0 +1,29 @@
+{
+  "name": "react_plazy",
+  "description": "Aprendiendo react con plazy",
+  "authors": [
+    "Jerson Betin"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/jersonbetin/reactjs_example",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  },
+  "overrides":{
+    "bootstrap" : {
+         "main": [
+            "less/bootstrap.less",
+            "dist/css/bootstrap.css",
+            "dist/js/bootstrap.js"
+          ]
+    }
+  }
+}
